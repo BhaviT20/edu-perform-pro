@@ -1,1 +1,6 @@
-
+Teacher_Name,Department,Score,Lateness,Risk_Level,Completion_Rate
+Elena Rodriguez,Science,88,2,Low,92
+Marcus Chen,Math,94,1,Low,95
+Sarah Jenkins,Arts,76,8,High,70
+David Okafor,PE,82,3,Low,85
+Priya Sharma,Languages,71,12,High,65
