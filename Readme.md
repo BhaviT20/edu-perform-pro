@@ -1,4 +1,5 @@
 ![Dashboard Preview](dashboard.png)
+
 📈 EduPerform Pro: Institutional Intelligence Suite
 🚀 Project Overview
 EduPerform Pro is a high-end, glassmorphic educational dashboard designed for institutional administrators. It moves beyond traditional tracking by using predictive analytics and a modern "Deep Space" aesthetic to monitor faculty performance, task completion, and attrition risks.
@@ -59,3 +60,4 @@ Username: admin
 
 
 Password: admin
+
