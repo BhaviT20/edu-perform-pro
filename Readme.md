@@ -50,7 +50,7 @@ This project features a complete visual overhaul that separates design from logi
 ## 🔗 Access & Deployment
 
 ### **🌍 Live Demo**
-> **URL:** [Insert your Streamlit Cloud URL here]  
+> **URL:** [ https://share.streamlit.io/ ]  
 > *The dashboard is hosted on Streamlit Cloud for real-time interaction.*
 
 ### **💻 Local Access**
@@ -75,3 +75,4 @@ To enter the Intelligence Suite, use the following administrative credentials:
     ```bash
     pip install -r requirements.txt
     ```
+
