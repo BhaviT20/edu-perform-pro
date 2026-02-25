@@ -1,4 +1,4 @@
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview]([dashboard.png](https://edu-perform-pro-gezd3swmj59sih5hblyhti.streamlit.app/))
 
 📈 EduPerform Pro: Institutional Intelligence Suite
 🚀 Project Overview
@@ -60,4 +60,5 @@ Username: admin
 
 
 Password: admin
+
 
