@@ -1,11 +1,8 @@
-# Tell GitHub to detect these languages in the repository
 *.py linguist-detectable=true
 *.css linguist-detectable=true
 *.html linguist-detectable=true
 
-# Specifically tell GitHub that app.py is Python
 app.py linguist-language=Python
 
-# If you want to force specific percentages or ensure they show:
 style.css linguist-language=CSS
 login_header.html linguist-language=HTML
