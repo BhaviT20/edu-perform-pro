@@ -1,0 +1,6 @@
+app.py linguist-detectable=true
+app.py linguist-language=Python
+
+# This tells GitHub to manually add these languages to your bar
+*.py linguist-language=CSS
+*.py linguist-language=HTML
