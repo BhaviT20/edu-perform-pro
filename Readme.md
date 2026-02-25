@@ -1,70 +1,77 @@
 [🔗EduPerform Pro Dashboard](https://edu-perform-pro-gezd3swmj59sih5hblyhti.streamlit.app/)
 
-📈 EduPerform Pro: Institutional Intelligence Suite
-🚀 Project Overview
-EduPerform Pro is a high-end, glassmorphic educational dashboard designed for institutional administrators. It moves beyond traditional tracking by using predictive analytics and a modern "Deep Space" aesthetic to monitor faculty performance, task completion, and attrition risks.
+# ⚡ EduPerform Pro | Intelligence Suite
 
-🎨 UI/UX Redesign Highlights
-Unlike standard administrative tools, this project features a complete visual overhaul:
+**EduPerform Pro** is a high-end, glassmorphic educational dashboard designed for institutional administrators. It moves beyond traditional tracking by using predictive analytics and a modern "Deep Space" aesthetic to monitor faculty performance, task completion, and attrition risks.
 
-Theme: A premium Glassmorphic Blue palette utilizing semi-transparent surfaces and indigo glowing accents.
+---
 
-Animations: Implemented staggered "Slide-Up" entrance animations for a smooth, app-like user experience.
+## 🚀 Key Features
 
-Layout: A unified container system that ensures all charts and text headers are perfectly aligned within glowing glass modules.
+* **Executive Dashboard:** Real-time tracking of Staff Strength (62 members), Retention Risk, and Efficiency Indices.
+* **Faculty Analytics:** Individual profiles with automated avatar generation and pedagogical competency radar charts.
+* **Operational Pulse:** Interactive donut charts for real-time task completion monitoring.
+* **Risk & Attrition Analysis:** A dedicated suite with sensitivity sliders to identify "at-risk" staff based on lateness and performance correlation.
 
-Responsive Sidebar: A sleek, dark navigation menu for seamless transition between intelligence modules.
+---
 
-🛠️ Technical Stack
-Frontend/Backend: Streamlit (Python)
+## 🛠️ Technical Stack
 
-Data Processing: Pandas & NumPy for synthetic data modeling and variations
+### 🔹 Python (The Engine)
+The core logic is built with **Streamlit**. It handles session state for secure authentication, routes navigation between modules, and processes data using **Pandas** and **NumPy**.
+* **Predictive Logic:** Uses OLS Trendlines to correlate lateness with performance scores.
+* **Authentication:** Integrated login system with session-based access control.
 
-Visualizations: Plotly (Box Plots, Radar Charts, Donut Charts, and Scatter Plots with OLS Trendlines)
+### 🔹 UI/UX Design (CSS & HTML)
+This project features a complete visual overhaul that separates design from logic:
+* **Glassmorphism:** A custom-built CSS suite utilizing `backdrop-filter: blur(15px)` and semi-transparent indigo surfaces.
+* **Animations:** Implemented staggered "Slide-Up" entrance animations for a smooth, app-like experience.
+* **Custom Components:** Re-engineered Streamlit containers to act as glowing "glass" modules.
 
-Styling: Advanced Custom CSS (Keyframes, Backdrop-filters, and Radial Gradients)
+### 🔹 Data Engineering
+* **`academic_data.csv`:** The primary database containing teacher metrics, departmental scores, and incident logs.
+* **`python_generate_data.py`:** A custom synthetic data engine created to simulate realistic variations in institutional performance (over 20% variation from standard templates).
 
-📋 Intelligence Modules
-1. Executive Summary (Dashboard)
-Animated KPIs: Real-time tracking of Staff Strength, Retention Risk, and Efficiency Indices.
+---
 
-Distribution Analysis: Inter-departmental performance box plots.
+## 📂 File Structure
 
-Operational Pulse: Interactive donut charts for task completion monitoring.
+| File | Description |
+| :--- | :--- |
+| **`app.py`** | The main application entry point and logic. |
+| **`style.css`** | Custom design tokens and glassmorphic UI styling. |
+| **`login_header.html`** | Custom HTML structure for the authentication portal. |
+| **`academic_data.csv`** | The dataset fueling the visualizations. |
+| **`python_generate_data.py`** | Script to generate or refresh synthetic faculty data. |
+| **`requirements.txt`** | Dependency list (Streamlit, Pandas, Plotly, etc.). |
 
-2. Faculty Analytics
-Individual Profiles: Dynamic member selection with automated avatar generation.
+---
 
-Pedagogical Competency Wheel: Radar charts analyzing skills across 5 categories: Tech, Engagement, Curriculum, Assessment, and Feedback.
+## 🔗 Access & Deployment
 
-3. Risk & Attrition Analysis (New Interactive Features)
-Risk Sensitivity Slider: Allows administrators to adjust the threshold for identifying "at-risk" staff.
+### **🌍 Live Demo**
+> **URL:** [Insert your Streamlit Cloud URL here]  
+> *The dashboard is hosted on Streamlit Cloud for real-time interaction.*
 
-Departmental Filters: Dynamic bar charts to isolate lateness distribution by specific departments.
+### **💻 Local Access**
+If you are running the project on your machine:
+1.  **Launch the app:** `streamlit run app.py`
+2.  **Access URL:** [http://localhost:8501](http://localhost:8501)
 
-Predictive Correlation: Scatter plot with an OLS trendline showing the statistical impact of lateness on performance scores.
+### **🔐 Authentication Credentials**
+To enter the Intelligence Suite, use the following administrative credentials:
+* **Username:** `admin`
+* **Password:** `admin`
 
-🧠 Data Variation & Logic
-As per project requirements, the dataset has been modified by over 20% compared to standard templates:
+---
 
-Staff Strength: Increased to 62 active members.
+## ⚙️ Installation
 
-Incident Log: Adjusted to 112 monthly instances.
-
-Logic: High lateness counts are modeled to correlate with a higher attrition risk, providing realistic administrative insights.
-
-🔑 Demo Access
-URL: localhost:8501 (default)
-
-Username: admin
-
-
-Password: admin
-
-
-
-
-
-
-
-
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/BhaviT20/edu-perform-pro.git](https://github.com/BhaviT20/edu-perform-pro.git)
+    ```
+2.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
